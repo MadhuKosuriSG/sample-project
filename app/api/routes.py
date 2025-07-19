@@ -8,7 +8,7 @@ async def root():
 
 @router.get("/api")
 async def root():
-    return {"message": "Hello from FastAPI Skeleton"}
+    return {"message": "Hello from FastAPI Skeleton-1"}
 
 @router.get("/api/")
 async def api_with_slash():
