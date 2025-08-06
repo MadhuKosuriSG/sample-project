@@ -8,7 +8,7 @@ origins = [
     "http://localhost:3000",
     "http://34.227.90.56",
     "http://3.89.103.234",
-    "http://44.204.194.121"
+    "http://44.204.194.121",
     "http://dev-web-loadbalancer-891045896.us-east-1.elb.amazonaws.com"
 ]
 
@@ -21,3 +21,7 @@ app.add_middleware(
 )
 
 app.include_router(router)
+# sudo systemctl restart fastapi # Restart the FastAPI service
+# sudo systemctl status fastapi # Check the status of the FastAPI service
+# sudo journalctl -u fastapi -f # View the logs for the FastAPI service
+# sudo nginx -t # Test the Nginx configuration
