@@ -8,6 +8,7 @@ origins = [
     "http://localhost:3000",
     "http://34.227.90.56",
     "http://3.89.103.234",
+    "http://44.204.194.121"
     "http://dev-web-loadbalancer-891045896.us-east-1.elb.amazonaws.com"
 ]
 
